@@ -1,2 +1,2 @@
 # create-react-ext
-Simple tool to create Chrome extension using React
+Bootstrap Chrome extension using React & Webpack
