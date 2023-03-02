@@ -15,19 +15,19 @@
   "keywords": [
     "google",
     "chrome",
+    "chrome-extension",
     "extension",
-    "bootstrap",
     "manifest",
-    "create",
-    "react",
-    "ext",
-    "webpack",
-    "webpack-dev-server",
-    "create-react-app",
-    "create-react-ext",
     "mv3",
     "mv2",
-    "js"
+    "ext",
+    "js",
+    "webpack",
+    "webpack-dev-server",
+    "react",
+    "redux",
+    "create-react-app",
+    "create-react-ext"
   ],
   "homepage": "https://github.com/prg938/create-react-ext",
   "repository": {
