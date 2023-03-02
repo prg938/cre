@@ -1,6 +1,6 @@
 {
   "name": "create-react-ext",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tool to generate Chrome extension using React & Webpack with auto-update support",
   "main": "index.js",
   "type": "module",
