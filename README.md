@@ -1,4 +1,7 @@
+
 ![icon](https://user-images.githubusercontent.com/7237762/222456904-638c8422-32b9-4b81-9632-2a009188cb8f.png)
+
+[![npm version](https://badge.fury.io/js/create-react-ext.svg)](http://badge.fury.io/js/create-react-ext)
 
 A tool to generate Chrome extension using React & Webpack with auto-update support
 
