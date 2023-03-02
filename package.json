@@ -7,6 +7,11 @@
   "scripts": {
     "init": "node index.js"
   },
+  "dependencies": {
+    "ansi-regex": "^6.0.1",
+    "node-fetch": "^2.6.1",
+    "ws": "^8.12.1"
+  },
   "keywords": [
     "google",
     "chrome",
@@ -24,11 +29,14 @@
     "mv2",
     "js"
   ],
-  "author": "Rankov Ivan",
-  "license": "MIT license",
-  "dependencies": {
-    "ansi-regex": "^6.0.1",
-    "node-fetch": "^2.6.1",
-    "ws": "^8.12.1"
-  }
+  "homepage": "https://github.com/prg938/create-react-ext",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prg938/create-react-ext.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prg938/create-react-ext/issues"
+  },
+  "author": "Rankov Ivan (https://github.com/prg938)",
+  "license": "MIT license"
 }
