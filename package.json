@@ -17,8 +17,12 @@
     "react",
     "ext",
     "webpack",
+    "webpack-dev-server",
+    "create-react-app",
+    "create-react-ext",
     "mv3",
-    "mv2"
+    "mv2",
+    "js"
   ],
   "author": "Rankov Ivan",
   "license": "MIT license",
