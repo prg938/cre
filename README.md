@@ -2,6 +2,9 @@
 
 A tool to generate Chrome extension using React & Webpack with auto-update support
 
+### Manifest
+This tool generates **manifest v3. Manifest v<3** won't be supported by Google developers
+
 
 ### How to use
 - Create React project (using [create-react-app](https://create-react-app.dev) for instance)
