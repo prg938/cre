@@ -14,7 +14,7 @@ This tool generates **manifest v3. Manifest v<3** won't be supported by Google d
 - Install ```create-react-ext```: **npm i create-react-ext**
 - Install ```@types/chrome```: **npm i @types/chrome** (it'll add type definitions for Chrome extension development)
 - Start project (**npm start** for instance). After that **webpack-dev-server must be launched at localhost:3000**
-- Generate extension: **cd node_modules/create-react-ext && npm init** (it'll add ```ext``` folder in your project)
+- Generate extension: **cd node_modules/create-react-ext && npm start** (it'll add ```ext``` folder in your project)
 - Load this extension in Chrome from **ext** folder
 - Work with React project. Work with **background.js** / **manifest.js**. Changes will update and reload the extension
 
