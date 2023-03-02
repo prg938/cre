@@ -1,11 +1,11 @@
 {
   "name": "create-react-ext",
   "version": "1.0.0",
-  "description": "Bootstrap Chrome extension using React & Webpack",
+  "description": "A tool to Bootstrap Chrome extension using React & Webpack",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "create": "node index.js"
+    "init": "node index.js"
   },
   "keywords": [
     "google",

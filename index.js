@@ -1,9 +1,4 @@
 
-// TODO List:
-// Terminate broken ws-connections?
-// Clear webpack logs
-// How to prevent background.js from caching? chrome.runtime.reload() sometimes works - sometimes not
-
 import {normalize} from 'path'
 import fetch from 'node-fetch'
 import fs from 'fs'
