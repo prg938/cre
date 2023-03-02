@@ -1,0 +1,30 @@
+{
+  "name": "create-react-ext",
+  "version": "1.0.0",
+  "description": "Bootstrap Chrome extension using React & Webpack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create": "node index.js"
+  },
+  "keywords": [
+    "google",
+    "chrome",
+    "extension",
+    "bootstrap",
+    "manifest",
+    "create",
+    "react",
+    "ext",
+    "webpack",
+    "mv3",
+    "mv2"
+  ],
+  "author": "Rankov Ivan",
+  "license": "MIT license",
+  "dependencies": {
+    "ansi-regex": "^6.0.1",
+    "node-fetch": "^2.6.1",
+    "ws": "^8.12.1"
+  }
+}
