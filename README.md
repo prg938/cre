@@ -1,4 +1,4 @@
-![icon](https://user-images.githubusercontent.com/7237762/222297908-2c1dca1e-1794-49c2-933b-b28306c23591.png)
+![icon](https://user-images.githubusercontent.com/7237762/222456904-638c8422-32b9-4b81-9632-2a009188cb8f.png)
 
 A tool to Bootstrap Chrome extension using React & Webpack
 
