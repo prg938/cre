@@ -32,3 +32,4 @@ This tool generates chrome extension from React project. How?
 * Terminate broken ws-connections?
 * Use webpack build assets in extension rather than generated from webpack-dev-server. It will omit redundant code and unneeded logs as well as errors
 * Prevent background.js from caching. ```chrome.runtime.reload()``` sometimes works - sometimes not
+* Fix errors display

@@ -5,7 +5,7 @@ const wsc = new WebSocket('ws://localhost:3137')
 wsc.onmessage = message => {
   const reloadType = message.data
   if (reloadType === 'runtime') chrome.runtime.reload()
-  if (reloadType === 'location') window && window.location.reload()
+  if (reloadType === 'location') this.window && this.window.location.reload()
 }
 
 chrome.runtime.onInstalled.addListener(() => {
