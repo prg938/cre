@@ -3,10 +3,16 @@
 
 [![Version npm](https://img.shields.io/npm/v/create-react-ext.svg?logo=npm)](https://www.npmjs.com/package/create-react-ext)
 
-A tool to generate Chrome extension using React & Webpack with auto-update support
+A tool to generate Chrome extension (manifest v3) using React & Webpack with manual and auto-update support
 
-### Manifest
-This tool generates **manifest v3. Manifest v<3** won't be supported by Google developers
+### How it works
+Tool will watch for changes in **background.js** / **manifest.js** or in React project and auto-update extension with changed files
+
+https://user-images.githubusercontent.com/7237762/223497590-0d7b3fac-c6c9-488f-bbc5-eb3aa5a0f059.mp4
+
+Manual reload:
+
+![manual reload](https://user-images.githubusercontent.com/7237762/223502544-a7afefc3-cf47-4924-840f-34c2bcf55886.jpg)
 
 
 ### How to use
@@ -16,20 +22,13 @@ This tool generates **manifest v3. Manifest v<3** won't be supported by Google d
 - Start project (**npm start** for instance). After that **webpack-dev-server must be launched at localhost:3000**
 - Generate extension: **cd node_modules/create-react-ext && npm start** (it'll add ```ext``` folder in your project)
 - Load this extension in Chrome from **ext** folder
-- Work with React project. Work with **background.js** / **manifest.js**. Changes will update and reload the extension
-
-
-### How it works
-This tool generates chrome extension from React project. How?
-* It'll create ```ext``` folder
-* It'll generate in ```ext``` folder basic files like **background.js** / **manifest.js** / **icon.png**
-* It'll generate in ```ext``` folder webpack assests **index.html** / **js-assets** from [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
-* Tool will watch for changes in **background.js** / **manifest.js** or in React project and reload extension with changed files
-
+- Work with React project. Work with **background.js** / **manifest.js**. Changes will automatically update the extension
 
 
 ### TODO:
 * Terminate broken ws-connections?
-* Use webpack build assets in extension rather than generated from webpack-dev-server. It will omit redundant code and unneeded logs as well as errors
-* Prevent background.js from caching. ```chrome.runtime.reload()``` sometimes works - sometimes not
-* Fix errors display
+* Use webpack build assets? currently used generated from webpack-dev-server
+
+
+### License
+MIT License
