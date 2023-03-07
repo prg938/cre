@@ -6,7 +6,7 @@
 A tool to generate Chrome extension (manifest v3) using React & Webpack with manual and auto-update support
 
 ### How it works
-Tool will watch for changes in **background.js** / **manifest.js** or in React project and auto-update extension with changed files
+Tool will watch for changes in **background.js** / **manifest.js** or in React project and auto-update extension with changed files. Quick demo:
 
 https://user-images.githubusercontent.com/7237762/223497590-0d7b3fac-c6c9-488f-bbc5-eb3aa5a0f059.mp4
 
