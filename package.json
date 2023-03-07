@@ -1,6 +1,6 @@
 {
   "name": "create-react-ext",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A tool to generate Chrome extension (manifest v3) using React & Webpack with manual and auto-update support",
   "main": "index.js",
   "type": "module",
