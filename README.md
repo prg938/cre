@@ -6,7 +6,7 @@
 A tool to generate Chrome extension (manifest v3) using React & Webpack with manual and auto-update support
 
 ### How it works
-Tool will watch for changes in **background.js** / **manifest.js** or in React project and auto-update extension with changed files
+Tool will watch for changes in **background.js** / **manifest.json** or in React project and auto-update extension with changed files
 
 ![ezgif-5-358bf05523](https://user-images.githubusercontent.com/7237762/223511720-f90ab417-c988-4858-90df-32ae6573439b.gif)
 
@@ -22,7 +22,7 @@ Manual reload:
 - Start project (**npm start** for instance). After that **webpack-dev-server must be launched at localhost:3000**
 - Generate extension: **cd node_modules/create-react-ext && npm start** (it'll add ```ext``` folder in your project)
 - Load this extension in Chrome from **ext** folder
-- Work with React project. Work with **background.js** / **manifest.js**. Changes will automatically update the extension
+- Work with React project. Work with **background.js** / **manifest.json**. Changes will automatically update the extension
 
 
 ### TODO:
