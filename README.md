@@ -14,7 +14,7 @@ A tool to (re)generate Chrome extension from React & Webpack project. So any cha
 3. Start project. Make sure ```localhost:3000``` is available 
 4. Generate extension: **cd node_modules/create-react-ext && npm start** (it'll add ```ext``` folder)
 5. Load the extension in Chrome from ```ext``` folder
-6. Now you can make changes in React code and make changes in ```ext/background.js and ext/manifest.json```. Changes will regenerate the extension in ```ext``` and auto-reload using ```chrome.runtime.reload``` or ```window.location.reload``` if extension is opened
+6. Now you can make changes in React code or in ```ext/background.js, ext/manifest.json```. Changes will regenerate the extension in ```ext``` and auto-reload using ```chrome.runtime.reload``` or ```window.location.reload``` if extension is opened (see demo above)
 
 ### License
 MIT License
