@@ -4,7 +4,7 @@ name: "🌷 publish"
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   release:
