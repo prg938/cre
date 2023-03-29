@@ -6,7 +6,7 @@ A tool to (re)generate Chrome extension from React & Webpack project. So any cha
 [![Version npm](https://img.shields.io/npm/v/create-react-ext.svg?logo=npm)](https://www.npmjs.com/package/create-react-ext)
 
 ### Demo
-![ezgif-5-358bf05523](https://user-images.githubusercontent.com/7237762/223511720-f90ab417-c988-4858-90df-32ae6573439b.gif)
+![ezgif-2-a62f1dd185](https://user-images.githubusercontent.com/7237762/228644970-0afe67f8-413d-4ddf-a00c-7f8b52e5be04.gif)
 
 ### Usage
 1. Create React project (using [create-react-app](https://create-react-app.dev) for example)
