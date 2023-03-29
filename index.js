@@ -17,8 +17,14 @@ const AUTOUPDATESCRIPTTAG = '<script type="module" src="./auto-update.js"></scri
 const EXTRELOADTYPES = ['runtime', 'location']
 const WATCHCONFIG = {interval: 1000}
 const WSSPORT = 3137
-const WDSWSHOST = 'ws://localhost:3000/sockjs-node'
-const WDSHOST = 'http://localhost:3000'
+// IPv6 is used by default in Node>=v17.
+// In IPv6 localhost resolves to ::1 which is 127.0.0.1 (IPv4)
+// So rely on 127.0.0.1 rather than localhost
+// https://github.com/node-fetch/node-fetch/issues/1624
+const IPv6 = false
+const localhost = IPv6 ? '[::1]' : '127.0.0.1'
+const WDSWSHOST = 'ws://' + localhost + ':3000/sockjs-node'
+const WDSHOST = 'http://' + localhost + ':3000'
 const EXTPATH = '../../ext/'
 const BGPATH = 'background.js'
 const MANIFESTPATH = 'manifest.json'
