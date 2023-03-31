@@ -1,6 +1,6 @@
 {
   "name": "create-react-ext",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "A tool to (re)generate Chrome extension from React & Webpack project",
   "main": "index.js",
   "type": "module",
