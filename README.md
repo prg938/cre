@@ -1,5 +1,5 @@
 ### About package
-A tool to (re)generate Chrome extension from React & Webpack project. So any changes in your React code will automatically (re)generate extension in ```ext``` folder no matter how many changes you made (see demo below)
+A tool to bootstrap new Chrome extension using React + Webpack. Any changes in React code will automatically (re)generate extension in ```ext``` folder (see demo below)
 
 ![9533393](https://user-images.githubusercontent.com/7237762/229219190-41203d79-3fdd-46d4-90c7-335293099e3b.png)
 
