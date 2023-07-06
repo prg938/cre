@@ -1,7 +1,7 @@
 {
   "name": "create-react-ext",
-  "version": "1.0.18",
-  "description": "Bootstrap new Chrome extension using React + Webpack",
+  "version": "1.0.19",
+  "description": "Generate new Chrome extension and use TypeScript and React",
   "main": "index.js",
   "type": "module",
   "scripts": {
